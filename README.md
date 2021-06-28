@@ -1,5 +1,5 @@
-# RNAMotif
-
+# RNA_element
+# This model is used for detect RNA element for RNA function
 
 ## Data Preparing
 
