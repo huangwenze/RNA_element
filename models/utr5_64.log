@@ -1,0 +1,2414 @@
+Random Seed:  512
+Namespace(arch='ResRNANet', batch_size=32, beta=1, cuda=False, datadir='data', exp_name='utr5_64', generate_data=False, hidden_dim=64, learning_rate_min=1e-05, log_interval=100, lr=0.0003, lr_decay_epoch=10, lr_decay_scale=0.1, mask_func='mse', ngpu=1, niter=800, no_cuda=False, nstr=0, optimizer='adam', out_dir='models/utr5_64', outf='models', p_name='utr5', regression=False, restore_best=False, s=0.001, seed=512, shuffle_neg=False, ss_type='seq', start=1, test=False, tfboard=True, train_mask=False, train_mask2=False, use_label=True, weight_decay=1e-06, workers=2)
+Loading data: data/utr5.npy
+Loading data: data/utr5.npy
+Train set: 1388
+Test  set: 693
+Network Arch: ResRNANet
+Data Type:    seq
+===========================
+Total params: 164601
+Trainable params: 164601
+Non-trainable params: 0
+===========================
+[1m[31mutr5 	 Test  Epoch: 0     avg.loss: 2.9972 Acc: 0.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 1  0 Loss: 0.7236 
+[1m[32mutr5 	 Train Epoch: 1     avg.loss: 0.5683 Acc: 76.49%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 1     avg.loss: 0.9882 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 2  0 Loss: 0.2857 
+[1m[32mutr5 	 Train Epoch: 2     avg.loss: 0.2661 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 2     avg.loss: 0.5586 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 3  0 Loss: 0.2990 
+[1m[32mutr5 	 Train Epoch: 3     avg.loss: 0.2092 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 3     avg.loss: 0.4467 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 4  0 Loss: 0.2368 
+[1m[32mutr5 	 Train Epoch: 4     avg.loss: 0.1716 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 4     avg.loss: 0.3821 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 5  0 Loss: 0.1453 
+[1m[32mutr5 	 Train Epoch: 5     avg.loss: 0.1537 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 5     avg.loss: 0.3354 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 6  0 Loss: 0.1580 
+[1m[32mutr5 	 Train Epoch: 6     avg.loss: 0.1456 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 6     avg.loss: 0.2989 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 7  0 Loss: 0.1649 
+[1m[32mutr5 	 Train Epoch: 7     avg.loss: 0.1344 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 7     avg.loss: 0.2694 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 8  0 Loss: 0.0693 
+[1m[32mutr5 	 Train Epoch: 8     avg.loss: 0.1203 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 8     avg.loss: 0.2458 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 9  0 Loss: 0.1363 
+[1m[32mutr5 	 Train Epoch: 9     avg.loss: 0.1105 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 9     avg.loss: 0.2260 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 10  0 Loss: 0.0880 
+[1m[32mutr5 	 Train Epoch: 10     avg.loss: 0.0996 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 10     avg.loss: 0.2093 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 11  0 Loss: 0.0513 
+[1m[32mutr5 	 Train Epoch: 11     avg.loss: 0.0969 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 11     avg.loss: 0.1944 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 12  0 Loss: 0.1778 
+[1m[32mutr5 	 Train Epoch: 12     avg.loss: 0.0885 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 12     avg.loss: 0.1817 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 13  0 Loss: 0.0966 
+[1m[32mutr5 	 Train Epoch: 13     avg.loss: 0.0926 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 13     avg.loss: 0.1703 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 14  0 Loss: 0.0633 
+[1m[32mutr5 	 Train Epoch: 14     avg.loss: 0.0824 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 14     avg.loss: 0.1600 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 15  0 Loss: 0.1221 
+[1m[32mutr5 	 Train Epoch: 15     avg.loss: 0.0795 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 15     avg.loss: 0.1509 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 16  0 Loss: 0.0693 
+[1m[32mutr5 	 Train Epoch: 16     avg.loss: 0.0783 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 16     avg.loss: 0.1427 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 17  0 Loss: 0.0999 
+[1m[32mutr5 	 Train Epoch: 17     avg.loss: 0.0748 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 17     avg.loss: 0.1350 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 18  0 Loss: 0.0480 
+[1m[32mutr5 	 Train Epoch: 18     avg.loss: 0.0678 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 18     avg.loss: 0.1284 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 19  0 Loss: 0.0653 
+[1m[32mutr5 	 Train Epoch: 19     avg.loss: 0.0659 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 19     avg.loss: 0.1221 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 20  0 Loss: 0.0560 
+[1m[32mutr5 	 Train Epoch: 20     avg.loss: 0.0635 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 20     avg.loss: 0.1166 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 21  0 Loss: 0.0576 
+[1m[32mutr5 	 Train Epoch: 21     avg.loss: 0.0634 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 21     avg.loss: 0.1111 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 22  0 Loss: 0.0493 
+[1m[32mutr5 	 Train Epoch: 22     avg.loss: 0.0602 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 22     avg.loss: 0.1062 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 23  0 Loss: 0.0882 
+[1m[32mutr5 	 Train Epoch: 23     avg.loss: 0.0574 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 23     avg.loss: 0.1016 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 24  0 Loss: 0.0594 
+[1m[32mutr5 	 Train Epoch: 24     avg.loss: 0.0542 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 24     avg.loss: 0.0974 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 25  0 Loss: 0.0277 
+[1m[32mutr5 	 Train Epoch: 25     avg.loss: 0.0513 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 25     avg.loss: 0.0935 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 26  0 Loss: 0.0364 
+[1m[32mutr5 	 Train Epoch: 26     avg.loss: 0.0478 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 26     avg.loss: 0.0899 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 27  0 Loss: 0.0279 
+[1m[32mutr5 	 Train Epoch: 27     avg.loss: 0.0507 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 27     avg.loss: 0.0865 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 28  0 Loss: 0.0977 
+[1m[32mutr5 	 Train Epoch: 28     avg.loss: 0.0519 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 28     avg.loss: 0.0832 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 29  0 Loss: 0.0371 
+[1m[32mutr5 	 Train Epoch: 29     avg.loss: 0.0487 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 29     avg.loss: 0.0799 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 30  0 Loss: 0.0612 
+[1m[32mutr5 	 Train Epoch: 30     avg.loss: 0.0420 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 30     avg.loss: 0.0771 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 31  0 Loss: 0.0345 
+[1m[32mutr5 	 Train Epoch: 31     avg.loss: 0.0443 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 31     avg.loss: 0.0744 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 32  0 Loss: 0.0313 
+[1m[32mutr5 	 Train Epoch: 32     avg.loss: 0.0414 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 32     avg.loss: 0.0718 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 33  0 Loss: 0.0157 
+[1m[32mutr5 	 Train Epoch: 33     avg.loss: 0.0419 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 33     avg.loss: 0.0693 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 34  0 Loss: 0.0106 
+[1m[32mutr5 	 Train Epoch: 34     avg.loss: 0.0412 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 34     avg.loss: 0.0669 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 35  0 Loss: 0.0224 
+[1m[32mutr5 	 Train Epoch: 35     avg.loss: 0.0375 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 35     avg.loss: 0.0649 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 36  0 Loss: 0.0501 
+[1m[32mutr5 	 Train Epoch: 36     avg.loss: 0.0386 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 36     avg.loss: 0.0627 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 37  0 Loss: 0.0323 
+[1m[32mutr5 	 Train Epoch: 37     avg.loss: 0.0354 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 37     avg.loss: 0.0608 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 38  0 Loss: 0.0063 
+[1m[32mutr5 	 Train Epoch: 38     avg.loss: 0.0361 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 38     avg.loss: 0.0589 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 39  0 Loss: 0.0669 
+[1m[32mutr5 	 Train Epoch: 39     avg.loss: 0.0350 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 39     avg.loss: 0.0571 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 40  0 Loss: 0.0189 
+[1m[32mutr5 	 Train Epoch: 40     avg.loss: 0.0352 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 40     avg.loss: 0.0554 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 41  0 Loss: 0.0785 
+[1m[32mutr5 	 Train Epoch: 41     avg.loss: 0.0324 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 41     avg.loss: 0.0537 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 42  0 Loss: 0.0165 
+[1m[32mutr5 	 Train Epoch: 42     avg.loss: 0.0296 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 42     avg.loss: 0.0523 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 43  0 Loss: 0.0106 
+[1m[32mutr5 	 Train Epoch: 43     avg.loss: 0.0339 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 43     avg.loss: 0.0507 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 44  0 Loss: 0.0299 
+[1m[32mutr5 	 Train Epoch: 44     avg.loss: 0.0312 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 44     avg.loss: 0.0492 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 45  0 Loss: 0.0098 
+[1m[32mutr5 	 Train Epoch: 45     avg.loss: 0.0328 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 45     avg.loss: 0.0478 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 46  0 Loss: 0.0084 
+[1m[32mutr5 	 Train Epoch: 46     avg.loss: 0.0293 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 46     avg.loss: 0.0464 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 47  0 Loss: 0.0065 
+[1m[32mutr5 	 Train Epoch: 47     avg.loss: 0.0291 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 47     avg.loss: 0.0452 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 48  0 Loss: 0.0223 
+[1m[32mutr5 	 Train Epoch: 48     avg.loss: 0.0300 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 48     avg.loss: 0.0439 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 49  0 Loss: 0.0199 
+[1m[32mutr5 	 Train Epoch: 49     avg.loss: 0.0259 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 49     avg.loss: 0.0428 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 50  0 Loss: 0.0728 
+[1m[32mutr5 	 Train Epoch: 50     avg.loss: 0.0252 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 50     avg.loss: 0.0417 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 51  0 Loss: 0.0043 
+[1m[32mutr5 	 Train Epoch: 51     avg.loss: 0.0255 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 51     avg.loss: 0.0407 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 52  0 Loss: 0.0230 
+[1m[32mutr5 	 Train Epoch: 52     avg.loss: 0.0248 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 52     avg.loss: 0.0396 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 53  0 Loss: 0.0200 
+[1m[32mutr5 	 Train Epoch: 53     avg.loss: 0.0263 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 53     avg.loss: 0.0386 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 54  0 Loss: 0.0545 
+[1m[32mutr5 	 Train Epoch: 54     avg.loss: 0.0234 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 54     avg.loss: 0.0376 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 55  0 Loss: 0.0599 
+[1m[32mutr5 	 Train Epoch: 55     avg.loss: 0.0245 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 55     avg.loss: 0.0366 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 56  0 Loss: 0.0371 
+[1m[32mutr5 	 Train Epoch: 56     avg.loss: 0.0231 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 56     avg.loss: 0.0357 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 57  0 Loss: 0.0057 
+[1m[32mutr5 	 Train Epoch: 57     avg.loss: 0.0235 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 57     avg.loss: 0.0348 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 58  0 Loss: 0.0255 
+[1m[32mutr5 	 Train Epoch: 58     avg.loss: 0.0214 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 58     avg.loss: 0.0339 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 59  0 Loss: 0.0473 
+[1m[32mutr5 	 Train Epoch: 59     avg.loss: 0.0223 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 59     avg.loss: 0.0331 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 60  0 Loss: 0.0049 
+[1m[32mutr5 	 Train Epoch: 60     avg.loss: 0.0210 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 60     avg.loss: 0.0323 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 61  0 Loss: 0.0084 
+[1m[32mutr5 	 Train Epoch: 61     avg.loss: 0.0225 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 61     avg.loss: 0.0314 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 62  0 Loss: 0.0352 
+[1m[32mutr5 	 Train Epoch: 62     avg.loss: 0.0196 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 62     avg.loss: 0.0307 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 63  0 Loss: 0.0125 
+[1m[32mutr5 	 Train Epoch: 63     avg.loss: 0.0201 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 63     avg.loss: 0.0300 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 64  0 Loss: 0.0194 
+[1m[32mutr5 	 Train Epoch: 64     avg.loss: 0.0197 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 64     avg.loss: 0.0293 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 65  0 Loss: 0.0048 
+[1m[32mutr5 	 Train Epoch: 65     avg.loss: 0.0189 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 65     avg.loss: 0.0286 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 66  0 Loss: 0.0301 
+[1m[32mutr5 	 Train Epoch: 66     avg.loss: 0.0185 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 66     avg.loss: 0.0279 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 67  0 Loss: 0.0126 
+[1m[32mutr5 	 Train Epoch: 67     avg.loss: 0.0187 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 67     avg.loss: 0.0272 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 68  0 Loss: 0.0219 
+[1m[32mutr5 	 Train Epoch: 68     avg.loss: 0.0176 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 68     avg.loss: 0.0267 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 69  0 Loss: 0.0241 
+[1m[32mutr5 	 Train Epoch: 69     avg.loss: 0.0174 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 69     avg.loss: 0.0260 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 70  0 Loss: 0.0068 
+[1m[32mutr5 	 Train Epoch: 70     avg.loss: 0.0162 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 70     avg.loss: 0.0254 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 71  0 Loss: 0.0117 
+[1m[32mutr5 	 Train Epoch: 71     avg.loss: 0.0157 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 71     avg.loss: 0.0249 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 72  0 Loss: 0.0053 
+[1m[32mutr5 	 Train Epoch: 72     avg.loss: 0.0163 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 72     avg.loss: 0.0244 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 73  0 Loss: 0.0344 
+[1m[32mutr5 	 Train Epoch: 73     avg.loss: 0.0175 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 73     avg.loss: 0.0238 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 74  0 Loss: 0.0284 
+[1m[32mutr5 	 Train Epoch: 74     avg.loss: 0.0163 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 74     avg.loss: 0.0232 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 75  0 Loss: 0.0129 
+[1m[32mutr5 	 Train Epoch: 75     avg.loss: 0.0154 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 75     avg.loss: 0.0227 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 76  0 Loss: 0.0303 
+[1m[32mutr5 	 Train Epoch: 76     avg.loss: 0.0164 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 76     avg.loss: 0.0222 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 77  0 Loss: 0.0062 
+[1m[32mutr5 	 Train Epoch: 77     avg.loss: 0.0158 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 77     avg.loss: 0.0217 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 78  0 Loss: 0.0054 
+[1m[32mutr5 	 Train Epoch: 78     avg.loss: 0.0146 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 78     avg.loss: 0.0212 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 79  0 Loss: 0.0221 
+[1m[32mutr5 	 Train Epoch: 79     avg.loss: 0.0146 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 79     avg.loss: 0.0208 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 80  0 Loss: 0.0046 
+[1m[32mutr5 	 Train Epoch: 80     avg.loss: 0.0130 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 80     avg.loss: 0.0203 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 81  0 Loss: 0.0148 
+[1m[32mutr5 	 Train Epoch: 81     avg.loss: 0.0144 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 81     avg.loss: 0.0199 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 82  0 Loss: 0.0074 
+[1m[32mutr5 	 Train Epoch: 82     avg.loss: 0.0143 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 82     avg.loss: 0.0195 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 83  0 Loss: 0.0101 
+[1m[32mutr5 	 Train Epoch: 83     avg.loss: 0.0128 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 83     avg.loss: 0.0190 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 84  0 Loss: 0.0248 
+[1m[32mutr5 	 Train Epoch: 84     avg.loss: 0.0123 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 84     avg.loss: 0.0186 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 85  0 Loss: 0.0014 
+[1m[32mutr5 	 Train Epoch: 85     avg.loss: 0.0134 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 85     avg.loss: 0.0182 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 86  0 Loss: 0.0148 
+[1m[32mutr5 	 Train Epoch: 86     avg.loss: 0.0133 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 86     avg.loss: 0.0179 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 87  0 Loss: 0.0052 
+[1m[32mutr5 	 Train Epoch: 87     avg.loss: 0.0132 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 87     avg.loss: 0.0175 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 88  0 Loss: 0.0020 
+[1m[32mutr5 	 Train Epoch: 88     avg.loss: 0.0122 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 88     avg.loss: 0.0171 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 89  0 Loss: 0.0277 
+[1m[32mutr5 	 Train Epoch: 89     avg.loss: 0.0126 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 89     avg.loss: 0.0167 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 90  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 90     avg.loss: 0.0100 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 90     avg.loss: 0.0164 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 91  0 Loss: 0.0187 
+[1m[32mutr5 	 Train Epoch: 91     avg.loss: 0.0119 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 91     avg.loss: 0.0161 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 92  0 Loss: 0.0075 
+[1m[32mutr5 	 Train Epoch: 92     avg.loss: 0.0113 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 92     avg.loss: 0.0157 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 93  0 Loss: 0.0064 
+[1m[32mutr5 	 Train Epoch: 93     avg.loss: 0.0108 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 93     avg.loss: 0.0154 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 94  0 Loss: 0.0051 
+[1m[32mutr5 	 Train Epoch: 94     avg.loss: 0.0117 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 94     avg.loss: 0.0151 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 95  0 Loss: 0.0077 
+[1m[32mutr5 	 Train Epoch: 95     avg.loss: 0.0117 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 95     avg.loss: 0.0147 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 96  0 Loss: 0.0252 
+[1m[32mutr5 	 Train Epoch: 96     avg.loss: 0.0112 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 96     avg.loss: 0.0144 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 97  0 Loss: 0.0199 
+[1m[32mutr5 	 Train Epoch: 97     avg.loss: 0.0100 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 97     avg.loss: 0.0141 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 98  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 98     avg.loss: 0.0101 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 98     avg.loss: 0.0138 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 99  0 Loss: 0.0025 
+[1m[32mutr5 	 Train Epoch: 99     avg.loss: 0.0105 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 99     avg.loss: 0.0135 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 100  0 Loss: 0.0056 
+[1m[32mutr5 	 Train Epoch: 100     avg.loss: 0.0104 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 100     avg.loss: 0.0133 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 101  0 Loss: 0.0040 
+[1m[32mutr5 	 Train Epoch: 101     avg.loss: 0.0107 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 101     avg.loss: 0.0130 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 102  0 Loss: 0.0114 
+[1m[32mutr5 	 Train Epoch: 102     avg.loss: 0.0088 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 102     avg.loss: 0.0127 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 103  0 Loss: 0.0067 
+[1m[32mutr5 	 Train Epoch: 103     avg.loss: 0.0086 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 103     avg.loss: 0.0125 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 104  0 Loss: 0.0124 
+[1m[32mutr5 	 Train Epoch: 104     avg.loss: 0.0092 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 104     avg.loss: 0.0122 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 105  0 Loss: 0.0137 
+[1m[32mutr5 	 Train Epoch: 105     avg.loss: 0.0085 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 105     avg.loss: 0.0120 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 106  0 Loss: 0.0064 
+[1m[32mutr5 	 Train Epoch: 106     avg.loss: 0.0089 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 106     avg.loss: 0.0118 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 107  0 Loss: 0.0069 
+[1m[32mutr5 	 Train Epoch: 107     avg.loss: 0.0094 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 107     avg.loss: 0.0115 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 108  0 Loss: 0.0161 
+[1m[32mutr5 	 Train Epoch: 108     avg.loss: 0.0087 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 108     avg.loss: 0.0113 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 109  0 Loss: 0.0029 
+[1m[32mutr5 	 Train Epoch: 109     avg.loss: 0.0085 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 109     avg.loss: 0.0110 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 110  0 Loss: 0.0280 
+[1m[32mutr5 	 Train Epoch: 110     avg.loss: 0.0081 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 110     avg.loss: 0.0108 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 111  0 Loss: 0.0049 
+[1m[32mutr5 	 Train Epoch: 111     avg.loss: 0.0092 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 111     avg.loss: 0.0106 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 112  0 Loss: 0.0084 
+[1m[32mutr5 	 Train Epoch: 112     avg.loss: 0.0088 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 112     avg.loss: 0.0104 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 113  0 Loss: 0.0125 
+[1m[32mutr5 	 Train Epoch: 113     avg.loss: 0.0080 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 113     avg.loss: 0.0101 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 114  0 Loss: 0.0078 
+[1m[32mutr5 	 Train Epoch: 114     avg.loss: 0.0071 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 114     avg.loss: 0.0099 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 115  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 115     avg.loss: 0.0077 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 115     avg.loss: 0.0097 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 116  0 Loss: 0.0018 
+[1m[32mutr5 	 Train Epoch: 116     avg.loss: 0.0077 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 116     avg.loss: 0.0095 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 117  0 Loss: 0.0079 
+[1m[32mutr5 	 Train Epoch: 117     avg.loss: 0.0072 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 117     avg.loss: 0.0093 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 118  0 Loss: 0.0073 
+[1m[32mutr5 	 Train Epoch: 118     avg.loss: 0.0065 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 118     avg.loss: 0.0092 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 119  0 Loss: 0.0014 
+[1m[32mutr5 	 Train Epoch: 119     avg.loss: 0.0066 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 119     avg.loss: 0.0090 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 120  0 Loss: 0.0116 
+[1m[32mutr5 	 Train Epoch: 120     avg.loss: 0.0065 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 120     avg.loss: 0.0088 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 121  0 Loss: 0.0145 
+[1m[32mutr5 	 Train Epoch: 121     avg.loss: 0.0069 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 121     avg.loss: 0.0087 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 122  0 Loss: 0.0015 
+[1m[32mutr5 	 Train Epoch: 122     avg.loss: 0.0066 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 122     avg.loss: 0.0085 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 123  0 Loss: 0.0251 
+[1m[32mutr5 	 Train Epoch: 123     avg.loss: 0.0070 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 123     avg.loss: 0.0083 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 124  0 Loss: 0.0170 
+[1m[32mutr5 	 Train Epoch: 124     avg.loss: 0.0064 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 124     avg.loss: 0.0082 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 125  0 Loss: 0.0105 
+[1m[32mutr5 	 Train Epoch: 125     avg.loss: 0.0064 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 125     avg.loss: 0.0080 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 126  0 Loss: 0.0271 
+[1m[32mutr5 	 Train Epoch: 126     avg.loss: 0.0063 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 126     avg.loss: 0.0079 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 127  0 Loss: 0.0027 
+[1m[32mutr5 	 Train Epoch: 127     avg.loss: 0.0059 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 127     avg.loss: 0.0077 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 128  0 Loss: 0.0072 
+[1m[32mutr5 	 Train Epoch: 128     avg.loss: 0.0059 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 128     avg.loss: 0.0075 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 129  0 Loss: 0.0023 
+[1m[32mutr5 	 Train Epoch: 129     avg.loss: 0.0066 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 129     avg.loss: 0.0074 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 130  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 130     avg.loss: 0.0059 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 130     avg.loss: 0.0072 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 131  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 131     avg.loss: 0.0058 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 131     avg.loss: 0.0071 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 132  0 Loss: 0.0034 
+[1m[32mutr5 	 Train Epoch: 132     avg.loss: 0.0048 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 132     avg.loss: 0.0070 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 133  0 Loss: 0.0031 
+[1m[32mutr5 	 Train Epoch: 133     avg.loss: 0.0062 Acc: 100.00%, AUC: 0.5000 lr: 0.0003[0m
+[1m[31mutr5 	 Test  Epoch: 133     avg.loss: 0.0068 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 134  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 134     avg.loss: 0.0051 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 134     avg.loss: 0.0067 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 135  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 135     avg.loss: 0.0051 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 135     avg.loss: 0.0066 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 136  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 136     avg.loss: 0.0045 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 136     avg.loss: 0.0065 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 137  0 Loss: 0.0096 
+[1m[32mutr5 	 Train Epoch: 137     avg.loss: 0.0055 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 137     avg.loss: 0.0063 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 138  0 Loss: 0.0117 
+[1m[32mutr5 	 Train Epoch: 138     avg.loss: 0.0045 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 138     avg.loss: 0.0062 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 139  0 Loss: 0.0011 
+[1m[32mutr5 	 Train Epoch: 139     avg.loss: 0.0046 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 139     avg.loss: 0.0061 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 140  0 Loss: 0.0017 
+[1m[32mutr5 	 Train Epoch: 140     avg.loss: 0.0048 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 140     avg.loss: 0.0060 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 141  0 Loss: 0.0056 
+[1m[32mutr5 	 Train Epoch: 141     avg.loss: 0.0047 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 141     avg.loss: 0.0059 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 142  0 Loss: 0.0014 
+[1m[32mutr5 	 Train Epoch: 142     avg.loss: 0.0048 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 142     avg.loss: 0.0058 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 143  0 Loss: 0.0064 
+[1m[32mutr5 	 Train Epoch: 143     avg.loss: 0.0042 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 143     avg.loss: 0.0057 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 144  0 Loss: 0.0045 
+[1m[32mutr5 	 Train Epoch: 144     avg.loss: 0.0047 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 144     avg.loss: 0.0055 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 145  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 145     avg.loss: 0.0047 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 145     avg.loss: 0.0054 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 146  0 Loss: 0.0017 
+[1m[32mutr5 	 Train Epoch: 146     avg.loss: 0.0040 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 146     avg.loss: 0.0053 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 147  0 Loss: 0.0056 
+[1m[32mutr5 	 Train Epoch: 147     avg.loss: 0.0043 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 147     avg.loss: 0.0052 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 148  0 Loss: 0.0050 
+[1m[32mutr5 	 Train Epoch: 148     avg.loss: 0.0038 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 148     avg.loss: 0.0051 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 149  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 149     avg.loss: 0.0045 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 149     avg.loss: 0.0050 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 150  0 Loss: 0.0089 
+[1m[32mutr5 	 Train Epoch: 150     avg.loss: 0.0044 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 150     avg.loss: 0.0049 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 151  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 151     avg.loss: 0.0038 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 151     avg.loss: 0.0048 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 152  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 152     avg.loss: 0.0038 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 152     avg.loss: 0.0048 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 153  0 Loss: 0.0054 
+[1m[32mutr5 	 Train Epoch: 153     avg.loss: 0.0040 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 153     avg.loss: 0.0047 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 154  0 Loss: 0.0098 
+[1m[32mutr5 	 Train Epoch: 154     avg.loss: 0.0038 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 154     avg.loss: 0.0046 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 155  0 Loss: 0.0140 
+[1m[32mutr5 	 Train Epoch: 155     avg.loss: 0.0039 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 155     avg.loss: 0.0045 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 156  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 156     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 156     avg.loss: 0.0044 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 157  0 Loss: 0.0016 
+[1m[32mutr5 	 Train Epoch: 157     avg.loss: 0.0032 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 157     avg.loss: 0.0043 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 158  0 Loss: 0.0015 
+[1m[32mutr5 	 Train Epoch: 158     avg.loss: 0.0034 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 158     avg.loss: 0.0042 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 159  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 159     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 159     avg.loss: 0.0042 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 160  0 Loss: 0.0027 
+[1m[32mutr5 	 Train Epoch: 160     avg.loss: 0.0034 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 160     avg.loss: 0.0041 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 161  0 Loss: 0.0033 
+[1m[32mutr5 	 Train Epoch: 161     avg.loss: 0.0033 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 161     avg.loss: 0.0040 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 162  0 Loss: 0.0042 
+[1m[32mutr5 	 Train Epoch: 162     avg.loss: 0.0032 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 162     avg.loss: 0.0039 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 163  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 163     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 163     avg.loss: 0.0039 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 164  0 Loss: 0.0118 
+[1m[32mutr5 	 Train Epoch: 164     avg.loss: 0.0037 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 164     avg.loss: 0.0038 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 165  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 165     avg.loss: 0.0030 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 165     avg.loss: 0.0037 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 166  0 Loss: 0.0017 
+[1m[32mutr5 	 Train Epoch: 166     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 166     avg.loss: 0.0037 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 167  0 Loss: 0.0021 
+[1m[32mutr5 	 Train Epoch: 167     avg.loss: 0.0029 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 167     avg.loss: 0.0036 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 168  0 Loss: 0.0039 
+[1m[32mutr5 	 Train Epoch: 168     avg.loss: 0.0026 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 168     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 169  0 Loss: 0.0047 
+[1m[32mutr5 	 Train Epoch: 169     avg.loss: 0.0031 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 169     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 170  0 Loss: 0.0047 
+[1m[32mutr5 	 Train Epoch: 170     avg.loss: 0.0035 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 170     avg.loss: 0.0034 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 171  0 Loss: 0.0022 
+[1m[32mutr5 	 Train Epoch: 171     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 171     avg.loss: 0.0033 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 172  0 Loss: 0.0023 
+[1m[32mutr5 	 Train Epoch: 172     avg.loss: 0.0030 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 172     avg.loss: 0.0033 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 173  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 173     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 173     avg.loss: 0.0032 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 174  0 Loss: 0.0015 
+[1m[32mutr5 	 Train Epoch: 174     avg.loss: 0.0028 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 174     avg.loss: 0.0031 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 175  0 Loss: 0.0045 
+[1m[32mutr5 	 Train Epoch: 175     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 175     avg.loss: 0.0031 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 176  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 176     avg.loss: 0.0031 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 176     avg.loss: 0.0030 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 177  0 Loss: 0.0026 
+[1m[32mutr5 	 Train Epoch: 177     avg.loss: 0.0030 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 177     avg.loss: 0.0029 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 178  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 178     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 178     avg.loss: 0.0029 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 179  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 179     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 179     avg.loss: 0.0028 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 180  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 180     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 180     avg.loss: 0.0028 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 181  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 181     avg.loss: 0.0023 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 181     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 182  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 182     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 182     avg.loss: 0.0027 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 183  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 183     avg.loss: 0.0023 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 183     avg.loss: 0.0026 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 184  0 Loss: 0.0035 
+[1m[32mutr5 	 Train Epoch: 184     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 184     avg.loss: 0.0026 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 185  0 Loss: 0.0031 
+[1m[32mutr5 	 Train Epoch: 185     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 185     avg.loss: 0.0025 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 186  0 Loss: 0.0014 
+[1m[32mutr5 	 Train Epoch: 186     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 186     avg.loss: 0.0025 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 187  0 Loss: 0.0017 
+[1m[32mutr5 	 Train Epoch: 187     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 187     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 188  0 Loss: 0.0033 
+[1m[32mutr5 	 Train Epoch: 188     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 188     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 189  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 189     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 189     avg.loss: 0.0024 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 190  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 190     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 190     avg.loss: 0.0023 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 191  0 Loss: 0.0021 
+[1m[32mutr5 	 Train Epoch: 191     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 191     avg.loss: 0.0023 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 192  0 Loss: 0.0045 
+[1m[32mutr5 	 Train Epoch: 192     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 192     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 193  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 193     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 193     avg.loss: 0.0022 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 194  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 194     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 194     avg.loss: 0.0021 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 195  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 195     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 195     avg.loss: 0.0021 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 196  0 Loss: 0.0016 
+[1m[32mutr5 	 Train Epoch: 196     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 196     avg.loss: 0.0021 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 197  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 197     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 197     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 198  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 198     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 198     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 199  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 199     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 199     avg.loss: 0.0020 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 200  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 200     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 200     avg.loss: 0.0019 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 201  0 Loss: 0.0064 
+[1m[32mutr5 	 Train Epoch: 201     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 201     avg.loss: 0.0019 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 202  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 202     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 202     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 203  0 Loss: 0.0014 
+[1m[32mutr5 	 Train Epoch: 203     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 203     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 204  0 Loss: 0.0018 
+[1m[32mutr5 	 Train Epoch: 204     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 204     avg.loss: 0.0018 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 205  0 Loss: 0.0109 
+[1m[32mutr5 	 Train Epoch: 205     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 205     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 206  0 Loss: 0.0050 
+[1m[32mutr5 	 Train Epoch: 206     avg.loss: 0.0015 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 206     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 207  0 Loss: 0.0069 
+[1m[32mutr5 	 Train Epoch: 207     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 207     avg.loss: 0.0017 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 208  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 208     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 208     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 209  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 209     avg.loss: 0.0015 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 209     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 210  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 210     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 210     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 211  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 211     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 211     avg.loss: 0.0016 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 212  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 212     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 212     avg.loss: 0.0015 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 213  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 213     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 213     avg.loss: 0.0015 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 214  0 Loss: 0.0016 
+[1m[32mutr5 	 Train Epoch: 214     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 214     avg.loss: 0.0015 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 215  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 215     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 215     avg.loss: 0.0014 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 216  0 Loss: 0.0023 
+[1m[32mutr5 	 Train Epoch: 216     avg.loss: 0.0014 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 216     avg.loss: 0.0014 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 217  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 217     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 217     avg.loss: 0.0014 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 218  0 Loss: 0.0012 
+[1m[32mutr5 	 Train Epoch: 218     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 218     avg.loss: 0.0014 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 219  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 219     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 219     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 220  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 220     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 220     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 221  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 221     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 221     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 222  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 222     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 222     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 223  0 Loss: 0.0019 
+[1m[32mutr5 	 Train Epoch: 223     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 223     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 224  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 224     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 224     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 225  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 225     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 225     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 226  0 Loss: 0.0035 
+[1m[32mutr5 	 Train Epoch: 226     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 226     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 227  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 227     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 227     avg.loss: 0.0012 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 228  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 228     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 228     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 229  0 Loss: 0.0081 
+[1m[32mutr5 	 Train Epoch: 229     avg.loss: 0.0013 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 229     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 230  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 230     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 230     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 231  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 231     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 231     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 232  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 232     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 232     avg.loss: 0.0011 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 233  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 233     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 233     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 234  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 234     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 234     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 235  0 Loss: 0.0022 
+[1m[32mutr5 	 Train Epoch: 235     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 235     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 236  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 236     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 236     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 237  0 Loss: 0.0021 
+[1m[32mutr5 	 Train Epoch: 237     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 237     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 238  0 Loss: 0.0029 
+[1m[32mutr5 	 Train Epoch: 238     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 238     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 239  0 Loss: 0.0016 
+[1m[32mutr5 	 Train Epoch: 239     avg.loss: 0.0010 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 239     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 240  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 240     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 240     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 241  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 241     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 241     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 242  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 242     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 242     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 243  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 243     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 243     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 244  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 244     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 244     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 245  0 Loss: 0.0024 
+[1m[32mutr5 	 Train Epoch: 245     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 245     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 246  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 246     avg.loss: 0.0009 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 246     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 247  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 247     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 247     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 248  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 248     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 248     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 249  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 249     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 249     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 250  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 250     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 250     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 251  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 251     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 251     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 252  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 252     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 252     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 253  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 253     avg.loss: 0.0008 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 253     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 254  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 254     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 254     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 255  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 255     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 255     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 256  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 256     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 256     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 257  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 257     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 257     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 258  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 258     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 258     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 259  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 259     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 259     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 260  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 260     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 260     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 261  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 261     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 261     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 262  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 262     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 262     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 263  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 263     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 263     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 264  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 264     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 264     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 265  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 265     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 265     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 266  0 Loss: 0.0026 
+[1m[32mutr5 	 Train Epoch: 266     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 266     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 267  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 267     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 267     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 268  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 268     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 268     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 269  0 Loss: 0.0035 
+[1m[32mutr5 	 Train Epoch: 269     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 269     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 270  0 Loss: 0.0013 
+[1m[32mutr5 	 Train Epoch: 270     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 270     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 271  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 271     avg.loss: 0.0007 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 271     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 272  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 272     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 272     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 273  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 273     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 273     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 274  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 274     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 274     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 275  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 275     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 275     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 276  0 Loss: 0.0019 
+[1m[32mutr5 	 Train Epoch: 276     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 276     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 277  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 277     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 277     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 278  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 278     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 278     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 279  0 Loss: 0.0024 
+[1m[32mutr5 	 Train Epoch: 279     avg.loss: 0.0006 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 279     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 280  0 Loss: 0.0010 
+[1m[32mutr5 	 Train Epoch: 280     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 280     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 281  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 281     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 281     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 282  0 Loss: 0.0025 
+[1m[32mutr5 	 Train Epoch: 282     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 282     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 283  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 283     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 283     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 284  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 284     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 284     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 285  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 285     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 285     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 286  0 Loss: 0.0015 
+[1m[32mutr5 	 Train Epoch: 286     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 286     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 287  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 287     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 287     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 288  0 Loss: 0.0018 
+[1m[32mutr5 	 Train Epoch: 288     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 288     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 289  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 289     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 289     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 290  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 290     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 290     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 291  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 291     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 291     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 292  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 292     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 292     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 293  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 293     avg.loss: 0.0005 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 293     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 294  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 294     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 294     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 295  0 Loss: 0.0013 
+[1m[32mutr5 	 Train Epoch: 295     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 295     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 296  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 296     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 296     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 297  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 297     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 297     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 298  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 298     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 298     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 299  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 299     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 299     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 300  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 300     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 300     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 301  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 301     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 301     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 302  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 302     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 302     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 303  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 303     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 303     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 304  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 304     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 304     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 305  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 305     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 305     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 306  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 306     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 306     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 307  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 307     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 307     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 308  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 308     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 308     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 309  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 309     avg.loss: 0.0004 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 309     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 310  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 310     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 310     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 311  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 311     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 311     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 312  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 312     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 312     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 313  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 313     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 313     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 314  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 314     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 314     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 315  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 315     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 315     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 316  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 316     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 316     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 317  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 317     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 317     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 318  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 318     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 318     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 319  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 319     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 319     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 320  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 320     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 320     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 321  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 321     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 321     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 322  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 322     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 322     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 323  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 323     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 323     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 324  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 324     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 324     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 325  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 325     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 325     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 326  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 326     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 326     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 327  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 327     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 327     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 328  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 328     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 328     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 329  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 329     avg.loss: 0.0003 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 329     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 330  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 330     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 330     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 331  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 331     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 331     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 332  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 332     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 332     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 333  0 Loss: 0.0015 
+[1m[32mutr5 	 Train Epoch: 333     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 333     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 334  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 334     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 334     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 335  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 335     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 335     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 336  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 336     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 336     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 337  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 337     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 337     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 338  0 Loss: 0.0005 
+[1m[32mutr5 	 Train Epoch: 338     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 338     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 339  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 339     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 339     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 340  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 340     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 340     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 341  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 341     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 341     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 342  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 342     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 342     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 343  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 343     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 343     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 344  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 344     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 344     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 345  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 345     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 345     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 346  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 346     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 346     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 347  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 347     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 347     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 348  0 Loss: 0.0011 
+[1m[32mutr5 	 Train Epoch: 348     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 348     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 349  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 349     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 349     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 350  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 350     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 350     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 351  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 351     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 351     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 352  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 352     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 352     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 353  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 353     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 353     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 354  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 354     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 354     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 355  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 355     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 355     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 356  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 356     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 356     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 357  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 357     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 357     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 358  0 Loss: 0.0007 
+[1m[32mutr5 	 Train Epoch: 358     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 358     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 359  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 359     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 359     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 360  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 360     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 360     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 361  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 361     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 361     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 362  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 362     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 362     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 363  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 363     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 363     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 364  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 364     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 364     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 365  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 365     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 365     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 366  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 366     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 366     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 367  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 367     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 367     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 368  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 368     avg.loss: 0.0002 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 368     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 369  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 369     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 369     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 370  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 370     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 370     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 371  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 371     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 371     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 372  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 372     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 372     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 373  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 373     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 373     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 374  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 374     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 374     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 375  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 375     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 375     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 376  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 376     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 376     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 377  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 377     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 377     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 378  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 378     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 378     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 379  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 379     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 379     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 380  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 380     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 380     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 381  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 381     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 381     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 382  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 382     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 382     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 383  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 383     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 383     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 384  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 384     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 384     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 385  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 385     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 385     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 386  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 386     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 386     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 387  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 387     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 387     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 388  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 388     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 388     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 389  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 389     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 389     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 390  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 390     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 390     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 391  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 391     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 391     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 392  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 392     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 392     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 393  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 393     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 393     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 394  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 394     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 394     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 395  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 395     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 395     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 396  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 396     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 396     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 397  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 397     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 397     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 398  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 398     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[31mutr5 	 Test  Epoch: 398     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 399  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 399     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 399     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 400  0 Loss: 0.0008 
+[1m[32mutr5 	 Train Epoch: 400     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0004[0m
+[1m[32mutr5 	 Test  Epoch: 400     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 401  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 401     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 401     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 402  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 402     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 402     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 403  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 403     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 403     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 404  0 Loss: 0.0011 
+[1m[32mutr5 	 Train Epoch: 404     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 404     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 405  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 405     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 405     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 406  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 406     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 406     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 407  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 407     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 407     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 408  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 408     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 408     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 409  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 409     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 409     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 410  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 410     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 410     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 411  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 411     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 411     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 412  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 412     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 412     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 413  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 413     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 413     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 414  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 414     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 414     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 415  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 415     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 415     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 416  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 416     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 416     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 417  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 417     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 417     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 418  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 418     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 418     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 419  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 419     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 419     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 420  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 420     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 420     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 421  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 421     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 421     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 422  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 422     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 422     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 423  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 423     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 423     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 424  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 424     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 424     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 425  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 425     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 425     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 426  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 426     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 426     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 427  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 427     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 427     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 428  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 428     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 428     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 429  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 429     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 429     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 430  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 430     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 430     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 431  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 431     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 431     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 432  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 432     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 432     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 433  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 433     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 433     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 434  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 434     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 434     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 435  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 435     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 435     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 436  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 436     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 436     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 437  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 437     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 437     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 438  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 438     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 438     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 439  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 439     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 439     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 440  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 440     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 440     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 441  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 441     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 441     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 442  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 442     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 442     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 443  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 443     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 443     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 444  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 444     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 444     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 445  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 445     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 445     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 446  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 446     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 446     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 447  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 447     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 447     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 448  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 448     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 448     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 449  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 449     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 449     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 450  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 450     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 450     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 451  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 451     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 451     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 452  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 452     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 452     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 453  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 453     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 453     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 454  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 454     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 454     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 455  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 455     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 455     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 456  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 456     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 456     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 457  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 457     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 457     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 458  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 458     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 458     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 459  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 459     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 459     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 460  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 460     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 460     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 461  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 461     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 461     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 462  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 462     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 462     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 463  0 Loss: 0.0009 
+[1m[32mutr5 	 Train Epoch: 463     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 463     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 464  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 464     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 464     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 465  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 465     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 465     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 466  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 466     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 466     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 467  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 467     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 467     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 468  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 468     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 468     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 469  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 469     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 469     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 470  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 470     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 470     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 471  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 471     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 471     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 472  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 472     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 472     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 473  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 473     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 473     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 474  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 474     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 474     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 475  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 475     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 475     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 476  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 476     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 476     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 477  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 477     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 477     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 478  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 478     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 478     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 479  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 479     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 479     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 480  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 480     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 480     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 481  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 481     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 481     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 482  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 482     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 482     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 483  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 483     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 483     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 484  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 484     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 484     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 485  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 485     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 485     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 486  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 486     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 486     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 487  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 487     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 487     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 488  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 488     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 488     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 489  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 489     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 489     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 490  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 490     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 490     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 491  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 491     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 491     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 492  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 492     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 492     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 493  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 493     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 493     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 494  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 494     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 494     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 495  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 495     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 495     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 496  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 496     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 496     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 497  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 497     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 497     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 498  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 498     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 498     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 499  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 499     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 499     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 500  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 500     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 500     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 501  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 501     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 501     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 502  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 502     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 502     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 503  0 Loss: 0.0006 
+[1m[32mutr5 	 Train Epoch: 503     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 503     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 504  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 504     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 504     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 505  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 505     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 505     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 506  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 506     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 506     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 507  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 507     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 507     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 508  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 508     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 508     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 509  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 509     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 509     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 510  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 510     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 510     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 511  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 511     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 511     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 512  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 512     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 512     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 513  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 513     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 513     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 514  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 514     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 514     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 515  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 515     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 515     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 516  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 516     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 516     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 517  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 517     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 517     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 518  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 518     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 518     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 519  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 519     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 519     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 520  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 520     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 520     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 521  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 521     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 521     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 522  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 522     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 522     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 523  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 523     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 523     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 524  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 524     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 524     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 525  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 525     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 525     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 526  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 526     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 526     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 527  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 527     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 527     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 528  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 528     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 528     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 529  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 529     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 529     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 530  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 530     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 530     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 531  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 531     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 531     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 532  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 532     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 532     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 533  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 533     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 533     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 534  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 534     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 534     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 535  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 535     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 535     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 536  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 536     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 536     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 537  0 Loss: 0.0003 
+[1m[32mutr5 	 Train Epoch: 537     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 537     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 538  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 538     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 538     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 539  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 539     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 539     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 540  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 540     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 540     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 541  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 541     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 541     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 542  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 542     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 542     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 543  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 543     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 543     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 544  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 544     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 544     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 545  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 545     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 545     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 546  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 546     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 546     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 547  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 547     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 547     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 548  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 548     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 548     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 549  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 549     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 549     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 550  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 550     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 550     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 551  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 551     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 551     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 552  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 552     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 552     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 553  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 553     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 553     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 554  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 554     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 554     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 555  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 555     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 555     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 556  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 556     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 556     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 557  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 557     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 557     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 558  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 558     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 558     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 559  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 559     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 559     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 560  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 560     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 560     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 561  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 561     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 561     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 562  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 562     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 562     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 563  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 563     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 563     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 564  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 564     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 564     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 565  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 565     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 565     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 566  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 566     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 566     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 567  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 567     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 567     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 568  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 568     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 568     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 569  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 569     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 569     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 570  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 570     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 570     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 571  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 571     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 571     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 572  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 572     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 572     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 573  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 573     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 573     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 574  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 574     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 574     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 575  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 575     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 575     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 576  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 576     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 576     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 577  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 577     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 577     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 578  0 Loss: 0.0004 
+[1m[32mutr5 	 Train Epoch: 578     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 578     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 579  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 579     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 579     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 580  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 580     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 580     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 581  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 581     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 581     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 582  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 582     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 582     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 583  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 583     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 583     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 584  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 584     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 584     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 585  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 585     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 585     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 586  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 586     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 586     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 587  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 587     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 587     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 588  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 588     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 588     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 589  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 589     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 589     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 590  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 590     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 590     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 591  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 591     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 591     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 592  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 592     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 592     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 593  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 593     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 593     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 594  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 594     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 594     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 595  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 595     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 595     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 596  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 596     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 596     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 597  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 597     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 597     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 598  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 598     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 598     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 599  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 599     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 599     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 600  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 600     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 600     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 601  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 601     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 601     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 602  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 602     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 602     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 603  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 603     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 603     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 604  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 604     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 604     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 605  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 605     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 605     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 606  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 606     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 606     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 607  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 607     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 607     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 608  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 608     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 608     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 609  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 609     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 609     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 610  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 610     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 610     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 611  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 611     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 611     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 612  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 612     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 612     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 613  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 613     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 613     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 614  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 614     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 614     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 615  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 615     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 615     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 616  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 616     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 616     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 617  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 617     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 617     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 618  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 618     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 618     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 619  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 619     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 619     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 620  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 620     avg.loss: 0.0001 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 620     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 621  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 621     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 621     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 622  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 622     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 622     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 623  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 623     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 623     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 624  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 624     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 624     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 625  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 625     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 625     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 626  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 626     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 626     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 627  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 627     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 627     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 628  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 628     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 628     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 629  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 629     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 629     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 630  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 630     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 630     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 631  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 631     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 631     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 632  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 632     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 632     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 633  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 633     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 633     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 634  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 634     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 634     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 635  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 635     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 635     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 636  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 636     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 636     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 637  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 637     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 637     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 638  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 638     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 638     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 639  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 639     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 639     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 640  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 640     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 640     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 641  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 641     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 641     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 642  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 642     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 642     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 643  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 643     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 643     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 644  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 644     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 644     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 645  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 645     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 645     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 646  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 646     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 646     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 647  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 647     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 647     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 648  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 648     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 648     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 649  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 649     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 649     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 650  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 650     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 650     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 651  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 651     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 651     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 652  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 652     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 652     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 653  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 653     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 653     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 654  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 654     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 654     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 655  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 655     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 655     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 656  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 656     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 656     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 657  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 657     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[31mutr5 	 Test  Epoch: 657     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 658  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 658     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 658     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 659  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 659     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 659     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 660  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 660     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 660     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 661  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 661     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 661     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 662  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 662     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 662     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 663  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 663     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 663     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 664  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 664     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 664     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 665  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 665     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 665     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 666  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 666     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0005[0m
+[1m[32mutr5 	 Test  Epoch: 666     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 667  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 667     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 667     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 668  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 668     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 668     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 669  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 669     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 669     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 670  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 670     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 670     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 671  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 671     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 671     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 672  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 672     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 672     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 673  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 673     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 673     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 674  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 674     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 674     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 675  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 675     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 675     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 676  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 676     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 676     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 677  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 677     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 677     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 678  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 678     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 678     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 679  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 679     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 679     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 680  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 680     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 680     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 681  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 681     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 681     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 682  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 682     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 682     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 683  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 683     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 683     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 684  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 684     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 684     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 685  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 685     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 685     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 686  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 686     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 686     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 687  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 687     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 687     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 688  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 688     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 688     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 689  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 689     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 689     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 690  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 690     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 690     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 691  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 691     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 691     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 692  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 692     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 692     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 693  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 693     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 693     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 694  0 Loss: 0.0002 
+[1m[32mutr5 	 Train Epoch: 694     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 694     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 695  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 695     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 695     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 696  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 696     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 696     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 697  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 697     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 697     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 698  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 698     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 698     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 699  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 699     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 699     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 700  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 700     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 700     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 701  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 701     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 701     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 702  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 702     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 702     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 703  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 703     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 703     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 704  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 704     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 704     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 705  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 705     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 705     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 706  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 706     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 706     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 707  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 707     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 707     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 708  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 708     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 708     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 709  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 709     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 709     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 710  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 710     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 710     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 711  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 711     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 711     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 712  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 712     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 712     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 713  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 713     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 713     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 714  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 714     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 714     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 715  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 715     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 715     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 716  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 716     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 716     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 717  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 717     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 717     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 718  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 718     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 718     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 719  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 719     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 719     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 720  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 720     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 720     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 721  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 721     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 721     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 722  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 722     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 722     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 723  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 723     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 723     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 724  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 724     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 724     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 725  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 725     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 725     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 726  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 726     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 726     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 727  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 727     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 727     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 728  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 728     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 728     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 729  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 729     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 729     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 730  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 730     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 730     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 731  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 731     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 731     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 732  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 732     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 732     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 733  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 733     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 733     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 734  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 734     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 734     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 735  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 735     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 735     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 736  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 736     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 736     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 737  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 737     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 737     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 738  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 738     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 738     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 739  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 739     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 739     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 740  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 740     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 740     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 741  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 741     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 741     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 742  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 742     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 742     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 743  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 743     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 743     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 744  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 744     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 744     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 745  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 745     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 745     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 746  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 746     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 746     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 747  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 747     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 747     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 748  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 748     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 748     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 749  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 749     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 749     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 750  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 750     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 750     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 751  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 751     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 751     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 752  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 752     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 752     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 753  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 753     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 753     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 754  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 754     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 754     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 755  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 755     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 755     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 756  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 756     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 756     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 757  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 757     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 757     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 758  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 758     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 758     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 759  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 759     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 759     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 760  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 760     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 760     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 761  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 761     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 761     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 762  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 762     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 762     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 763  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 763     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 763     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 764  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 764     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 764     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 765  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 765     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 765     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 766  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 766     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 766     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 767  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 767     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 767     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 768  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 768     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 768     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 769  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 769     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 769     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 770  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 770     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 770     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 771  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 771     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 771     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 772  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 772     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 772     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 773  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 773     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 773     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 774  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 774     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 774     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 775  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 775     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 775     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 776  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 776     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 776     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 777  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 777     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 777     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 778  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 778     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 778     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 779  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 779     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 779     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 780  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 780     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 780     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 781  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 781     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 781     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 782  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 782     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 782     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 783  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 783     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 783     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 784  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 784     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 784     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 785  0 Loss: 0.0001 
+[1m[32mutr5 	 Train Epoch: 785     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 785     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 786  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 786     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 786     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 787  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 787     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 787     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 788  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 788     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 788     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 789  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 789     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 789     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 790  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 790     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[31mutr5 	 Test  Epoch: 790     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 791  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 791     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 791     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 792  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 792     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 792     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 793  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 793     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 793     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 794  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 794     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 794     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 795  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 795     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 795     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 796  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 796     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 796     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 797  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 797     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 797     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 798  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 798     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 798     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 799  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 799     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 799     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m
+utr5 	 Train Epoch: 800  0 Loss: 0.0000 
+[1m[32mutr5 	 Train Epoch: 800     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 lr: 0.0006[0m
+[1m[32mutr5 	 Test  Epoch: 800     avg.loss: 0.0000 Acc: 100.00%, AUC: 0.5000 (0.5000)[0m

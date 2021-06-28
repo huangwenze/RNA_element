@@ -1,0 +1,6 @@
+torch
+torchvision
+tensorboardX
+scipy==1.1.0
+termcolor
+h5py
